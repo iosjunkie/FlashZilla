@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E24B464823F18623003FDA84 /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24B464723F18623003FDA84 /* EditCards.swift */; };
 		E24DFB5723EF0B6E00389AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24DFB5623EF0B6E00389AE1 /* AppDelegate.swift */; };
 		E24DFB5923EF0B6E00389AE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24DFB5823EF0B6E00389AE1 /* SceneDelegate.swift */; };
 		E24DFB5C23EF0B6E00389AE1 /* FlashZilla.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E24DFB5A23EF0B6E00389AE1 /* FlashZilla.xcdatamodeld */; };
@@ -14,9 +15,12 @@
 		E24DFB6023EF0B7200389AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24DFB5F23EF0B7200389AE1 /* Assets.xcassets */; };
 		E24DFB6323EF0B7200389AE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24DFB6223EF0B7200389AE1 /* Preview Assets.xcassets */; };
 		E24DFB6623EF0B7200389AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24DFB6423EF0B7200389AE1 /* LaunchScreen.storyboard */; };
+		E24DFB6E23EF0B8800389AE1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24DFB6D23EF0B8800389AE1 /* Card.swift */; };
+		E24DFB7023EF0C5C00389AE1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24DFB6F23EF0C5C00389AE1 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E24B464723F18623003FDA84 /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
 		E24DFB5323EF0B6E00389AE1 /* FlashZilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashZilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24DFB5623EF0B6E00389AE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E24DFB5823EF0B6E00389AE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		E24DFB6223EF0B7200389AE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E24DFB6523EF0B7200389AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E24DFB6723EF0B7200389AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E24DFB6D23EF0B8800389AE1 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		E24DFB6F23EF0C5C00389AE1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				E24DFB6723EF0B7200389AE1 /* Info.plist */,
 				E24DFB5A23EF0B6E00389AE1 /* FlashZilla.xcdatamodeld */,
 				E24DFB6123EF0B7200389AE1 /* Preview Content */,
+				E24DFB6D23EF0B8800389AE1 /* Card.swift */,
+				E24DFB6F23EF0C5C00389AE1 /* CardView.swift */,
+				E24B464723F18623003FDA84 /* EditCards.swift */,
 			);
 			path = FlashZilla;
 			sourceTree = "<group>";
@@ -151,7 +160,10 @@
 			files = (
 				E24DFB5723EF0B6E00389AE1 /* AppDelegate.swift in Sources */,
 				E24DFB5923EF0B6E00389AE1 /* SceneDelegate.swift in Sources */,
+				E24DFB6E23EF0B8800389AE1 /* Card.swift in Sources */,
+				E24B464823F18623003FDA84 /* EditCards.swift in Sources */,
 				E24DFB5E23EF0B6E00389AE1 /* ContentView.swift in Sources */,
+				E24DFB7023EF0C5C00389AE1 /* CardView.swift in Sources */,
 				E24DFB5C23EF0B6E00389AE1 /* FlashZilla.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
